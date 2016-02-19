@@ -30,7 +30,7 @@ end
 When(/^I open the first result$/) do
   visit_page(CsccSearchResults) do |page|
 
-    page.search_results_elements[0].div.h3.a.click
+    page.search_results_elements[0].tbody.tr.div.a.click
 
   end
 end

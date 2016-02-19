@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2faf2555-04ae-40b9-9481-4635d26ca799" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/page_classes/cscc_home.rb" afterPath="$PROJECT_DIR$/features/page_classes/cscc_home.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/page_classes/cscc_results.rb" afterPath="$PROJECT_DIR$/features/page_classes/cscc_results.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/cscc_search_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/cscc_search_steps.rb" />
     </list>
@@ -18,7 +17,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/automation-with-page-object@cscc_search_feature.coverage" NAME="cscc_search.feature Coverage Results" MODIFIED="1455843881053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation-with-page-object" />
+    <SUITE FILE_PATH="coverage/automation-with-page-object@cscc_search_feature.coverage" NAME="cscc_search.feature Coverage Results" MODIFIED="1455844851461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation-with-page-object" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -33,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/features/step_definitions/cscc_search_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+              <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -73,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/features/page_classes/cscc_results.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -405,9 +404,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="cscc_search_feature - 2016.02.18 at 19h 26m 09s.xml">
-      <configuration name="cscc_search.feature" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
     <history-entry file="cscc_search_feature - 2016.02.18 at 19h 33m 51s.xml">
       <configuration name="cscc_search.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
@@ -433,6 +429,9 @@
       <configuration name="cscc_search.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
     <history-entry file="cscc_search_feature - 2016.02.18 at 20h 05m 09s.xml">
+      <configuration name="cscc_search.feature" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="cscc_search_feature - 2016.02.18 at 20h 21m 39s.xml">
       <configuration name="cscc_search.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
   </component>
@@ -563,14 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/page_classes/cscc_home.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/page_classes/google_home.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -582,7 +573,7 @@
     <entry file="file://$PROJECT_DIR$/features/step_definitions/cscc_search_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -590,7 +581,15 @@
     <entry file="file://$PROJECT_DIR$/features/page_classes/cscc_results.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/page_classes/cscc_home.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
           <folding />
         </state>
       </provider>

@@ -4,6 +4,6 @@ class CsccSearchResults
 
   include PageObject
 
-  divs(:search_results, class: 'g')
+  tables(:search_results, class: 'gsc-table-result')
 
 end
