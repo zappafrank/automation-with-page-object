@@ -19,11 +19,20 @@ When(/^I open the first result for the college$/) do
 end
 
 When(/^I search for the course$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+  on_page(CsccHome) do |page|
+
+    page.search_for 'csci-2994'
+    sleep 5
+
+  end
 end
 
 When(/^I open the first result$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+  visit_page(CsccSearchResults) do |page|
+
+    page.search_results_elements[0].div.h3.a.click
+
+  end
 end
 
 Then(/^the terms\-offered and prerequisite fields are returned$/) do
