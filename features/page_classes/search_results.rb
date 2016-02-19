@@ -4,6 +4,6 @@ class GoogleSearchResults
 
   include PageObject
 
-  div(:search_results, class: 'g')
+  divs(:search_results, class: 'g')
 
 end
