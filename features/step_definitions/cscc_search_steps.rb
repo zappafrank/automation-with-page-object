@@ -33,8 +33,14 @@ When(/^I open the first result$/) do
     page.search_results_elements[0].tbody.tr.div.a.click
 
   end
+
+  @browser.windows.last.use
+
 end
 
 Then(/^the terms\-offered and prerequisite fields are returned$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+  on_page(CourseSearchResults) do |page|
+    expect(page.terms_offered).to eq 'On Demand'
+    expect(page.prerequisites).to eq 'None'
+  end
 end
